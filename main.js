@@ -1,8 +1,27 @@
-const addPerson = (person)=>{
-  // create the li that will contain all this person's info
-  let li = document.createElement("li");
+class Image {
+  constructor(image) {
+    this.firstName = image.name.firstName
+    this.lastName = image.name.lastName
+    this.title = image.name.title
+    this.email = person.name.email
+    this.cell = image.name.cell
+    this.photo = image.name.photo
+  }
+}
 
-  // the h2 that contains their name is one part
+
+
+
+
+
+
+
+
+const newSearch = (person)=>{
+  // create the li that will contain all this person's info
+  let  = document.createElement("div");
+part
+  // the h2 that contains their name is one 
   const nameH2 = document.createElement('h2')
   nameH2.innerText = `${person.name.title} ${person.name.first} ${person.name.last}`
 
@@ -20,7 +39,7 @@ const addPerson = (person)=>{
   li.append(picture)
     
   // put the li into the list
-  document.querySelector('#people-list').appendChild(li);
+  document.querySelector('data').appendChild(img);
 }
 
 
